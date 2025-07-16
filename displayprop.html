@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+      background: rgb(223, 76, 18);
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ba2222;
+    }
+    .flex {
+      display: flex;
+      padding: 10px;
+    }
+    .grid {
+      display: grid;
+      background: rgb(66, 66, 252);
+      padding: 10px;
+    }
+    .inline,
+    .inline-flex,
+    .inline-grid {
+      background: rgb(3, 176, 233);
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ba2222;
+      margin-right: 10px;
+    }
+    .inline { display: inline; }
+    .inline-flex { display: inline-flex; }
+    .inline-grid { display: inline-grid; }
+  </style>
+</head>
+<body>
+  <h2>display: inline</h2>
+  <span class="inline">Inline Element 1</span>
+  <span class="inline">Inline Element 2</span>
+  <h2>display: inline-flex</h2>
+  <div>
+    <span class="inline-flex">Inline Flex 1</span>
+    <span class="inline-flex">Inline Flex 2</span>
+  </div>
+  <h2>display: inline-grid</h2>
+  <div>
+    <span class="inline-grid">Inline Grid 1</span>
+    <span class="inline-grid">Inline Grid 2</span>
+  </div>
+  <h2>display: flex</h2>
+  <div class="flex">
+    <div class="box">Flex Item 1</div>
+    <div class="box">Flex Item 2</div>
+    <div class="box">Flex Item 3</div>
+  </div>
+  <h2>display: grid</h2>
+  <div class="grid">
+    <div class="box">Grid Item 1</div>
+    <div class="box">Grid Item 2</div>
+    <div class="box">Grid Item 3</div>
+  </div>
+</body>
+</html>
